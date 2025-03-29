@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webzyro-home-page</title>
+
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="w-100 p-2" id="header">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <!-- left -->
+          <div class="d-flex align-items-center gap-3">
+            <a href="tel:+91-7542025436" class="text-decoration-none">
+              <li class="d-flex align-items-center gap-2 text-white">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91-7542025436</span>
+              </li>
+            </a>
+            <a href="mailto:info@webzyro.com" class="text-decoration-none">
+              <li class="d-flex align-items-center gap-2 text-white">
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>info@webzyro.com</span>
+              </li>
+            </a>
+          </div>
+          <!-- Right -->
+          <button
+            class="d-none btn btn-sm d-md-flex align-items-center gap-2"
+            id="button"
+          >
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Free Proposal</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light shadow-lg sticky-top"
+      id="navbar-container"
+    >
+      <div class="container d-flex align-items-center justify-content-between">
+        <a class="navbar-brand" href="/">
+          <img
+            src="./images/webzyro-logo.png"
+            alt="Logo"
+            class="img-fluid"
+            id="logo"
+          />
+        </a>
+        <!-- Replace navbar-toggler with offcanvas button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Add offcanvas -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <a
+              class="navbar-brand offcanvas-title"
+              id="offcanvasNavbarLabel"
+              href="/"
+            >
+              <img
+                src="./images/Advante-Logo.png"
+                alt="Logo"
+                class="img-fluid w-75"
+              />
+            </a>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/about-us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="hair-treatment.php"
+                      >Website Designing & Development</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="best-skin-care-treatment-in-patna.php"
+                      >Search Engine Optimization (SEO)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="laser-treatment.php"
+                      >Google Ads & Meta Ads</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="botox-treatment.php"
+                      >Social Media Marketing & Optimization</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="botox-treatment.php"
+                      >Graphic Designing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="botox-treatment.php"
+                      >Local SEO (Google My Business)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="botox-treatment.php"
+                      >WhatsApp & Email Marketing</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/our-clients.html"
+                  >Our Clients</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/career.html">Careers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="overflow-hidden">
+      <!-- Hero Section -->
+      <section class="w-100" id="hero-section">
+        <!-- <div class="container-fluid"> -->
+        <div class="owl-carousel hero-carousel owl-theme px-4">
+          <div class="item">
+            <div class="row g-2 align-items-center justify-content-center">
+              <div class="col-md-6">
+                <div
+                  class="d-flex flex-column align-items-start justify-content-center"
+                >
+                  <h3 class="text-white">
+                    Integrated Digital Marketing Agency - Driving through the
+                    power of data
+                  </h3>
+                  <p class="w-75 text-white">
+                    Providing expert advice and tailored strategies to help you
+                    achieve long-term financial stability
+                  </p>
+                  <a
+                    href="/contact.php"
+                    class="carousel-btn btn btn-light text-uppercase"
+                    >Contact Now</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="">
+                  <img
+                    src="./images/hbanner1.webp"
+                    class="img-fluid object-fit-cover w-100"
+                    alt="Home Slide 1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row g-2 align-items-center">
+              <div class="col-md-6">
+                <div
+                  class="d-flex flex-column align-items-start justify-content-center"
+                >
+                  <h3 class="text-white">
+                    Integrated Digital Marketing Agency - Driving through the
+                    power of data
+                  </h3>
+                  <p class="w-75 text-white">
+                    Providing expert advice and tailored strategies to help you
+                    achieve long-term financial stability
+                  </p>
+                  <a
+                    href="/contact.php"
+                    class="carousel-btn btn btn-light text-uppercase"
+                    >Contact Now</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="">
+                  <img
+                    src="./images/hbanner2.webp"
+                    class="img-fluid object-fit-cover w-100"
+                    alt="Home Slide 1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row g-2 align-items-center">
+              <div class="col-md-6">
+                <div
+                  class="d-flex flex-column align-items-start justify-content-center"
+                >
+                  <h3 class="text-white">
+                    Integrated Digital Marketing Agency - Driving through the
+                    power of data
+                  </h3>
+                  <p class="w-75 text-white">
+                    Providing expert advice and tailored strategies to help you
+                    achieve long-term financial stability
+                  </p>
+                  <a
+                    href="/contact.php"
+                    class="carousel-btn btn btn-light text-uppercase"
+                    >Contact Now</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div
+                  class="w-100 h-100 d-flex align-items-center justify-content-center"
+                >
+                  <img
+                    src="./images/hbanner3.webp"
+                    class="img-fluid object-fit-cover w-100"
+                    alt="Home Slide 1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row g-2 align-items-center">
+              <div class="col-md-6">
+                <div class="">
+                  <h3 class="text-white">
+                    Integrated Digital Marketing Agency - Driving through the
+                    power of data
+                  </h3>
+                  <p class="w-75 text-white">
+                    Providing expert advice and tailored strategies to help you
+                    achieve long-term financial stability
+                  </p>
+                  <a
+                    href="/contact.php"
+                    class="carousel-btn btn btn-light text-uppercase"
+                    >Contact Now</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="">
+                  <img
+                    src="./images/hbanner4.webp"
+                    class="img-fluid object-fit-cover w-100"
+                    alt="Home Slide 1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row g-2 align-items-center">
+              <div class="col-md-6">
+                <div
+                  class="d-flex flex-column align-items-start justify-content-center"
+                >
+                  <h3 class="text-white">
+                    Integrated Digital Marketing Agency - Driving through the
+                    power of data
+                  </h3>
+                  <p class="w-75 text-white">
+                    Providing expert advice and tailored strategies to help you
+                    achieve long-term financial stability
+                  </p>
+                  <a
+                    href="/contact.php"
+                    class="carousel-btn btn btn-light text-uppercase"
+                    >Contact Now</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="">
+                  <img
+                    src="./images/hbanner5.webp"
+                    class="img-fluid object-fit-cover w-100"
+                    alt="Home Slide 1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <!-- How it work section for large screen -->
+      <section class="w-100 mt-4 mb-5" id="how-section">
+        <div class="container">
+          <div class="mb-4 text-center">
+            <span class="process-badge">How it work</span>
+            <h2 class="w-100 w-lg-75 mx-auto mt-2">
+              Our Step-by-Step Marketing Process
+            </h2>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-3">
+              <div class="card border-0">
+                <div class="position-relative">
+                  <img src="./images/arrow.png" alt="arrow" class="img-fluid" />
+                  <div class="step-card shadow-lg">
+                    <img
+                      src="./images/step1.png"
+                      alt="step-1"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="display-5 text-center">01</h4>
+                  <p class="text-center">
+                    Competitor analysis and keyword research
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <div class="position-relative">
+                  <img src="./images/arrow.png" alt="arrow" class="img-fluid" />
+                  <div class="step-card shadow-lg">
+                    <img
+                      src="./images/step2.png"
+                      alt="step-1"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="display-5 text-center">02</h4>
+                  <p class="text-center">
+                    Craft a tailored SEO and digital plan
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <div class="position-relative">
+                  <img src="./images/arrow.png" alt="arrow" class="img-fluid" />
+                  <div class="step-card shadow-lg">
+                    <img
+                      src="./images/step3.png"
+                      alt="step-1"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="display-5 text-center">03</h4>
+                  <p class="text-center">
+                    Optimize your website for search engines
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <div class="position-relative">
+                  <img src="./images/arrow.png" alt="arrow" class="img-fluid" />
+                  <div class="step-card shadow-lg">
+                    <img
+                      src="./images/step4.png"
+                      alt="step-1"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="display-5 text-center">04</h4>
+                  <p class="text-center">
+                    Focus on long-term success & sustainable growth
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it work section for small screen -->
+      <section class="container py-5 d-lg-none">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <span class="process-badge">How We Work</span>
+            <h2 class="mt-3">Our Step-by-Step Marketing Process</h2>
+            <!-- <p class="text-muted mt-3 process-subtitle">
+              Simple and efficient steps to get your solar system installed
+            </p> -->
+          </div>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <!-- Site Survey Card -->
+          <div class="col-md-3">
+            <div class="process-card">
+              <div class="process-icon">
+                <span class="process-number">01</span>
+                <i class="fas fa-search fs-1"></i>
+              </div>
+              <h3>Site Survey</h3>
+              <p>
+                Our technical team will measure and assess your roof after which
+                they will submit a detailed report
+              </p>
+            </div>
+          </div>
+
+          <!-- Design Card -->
+          <div class="col-md-3">
+            <div class="process-card">
+              <div class="process-icon">
+                <span class="process-number">02</span>
+                <i class="fas fa-drafting-compass fs-1"></i>
+              </div>
+              <h3>Design & Installation</h3>
+              <p>
+                We provide customized solutions specific to the site. Then
+                system is installed & quality checks are completed
+              </p>
+            </div>
+          </div>
+
+          <!-- Submission Card -->
+          <div class="col-md-3">
+            <div class="process-card">
+              <div class="process-icon">
+                <span class="process-number">03</span>
+                <i class="fas fa-file-signature fs-1"></i>
+              </div>
+              <h3>Work Submission</h3>
+              <p>
+                Completion Report to DISCOM. Inspection of the site by ARYAVRAT
+                ENERGY
+              </p>
+            </div>
+          </div>
+
+          <!-- O&M Card -->
+          <div class="col-md-3">
+            <div class="process-card">
+              <div class="process-icon">
+                <span class="process-number">04</span>
+                <i class="fas fa-cogs fs-1"></i>
+              </div>
+              <h3>O & M</h3>
+              <p>
+                The project is now taken care of by ARYAVRAT for a period of 5
+                years
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="w-100 my-4" id="about-section">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-7">
+              <h4 class="process-badge mb-2">About us</h4>
+              <h2 class="">Driving Growth with Our Expertise and Passion</h2>
+              <p>
+                At <b>Webzyro</b>, we are a full-service digital marketing
+                agency dedicated to helping businesses thrive in the digital
+                landscape. From data-driven marketing strategies to cutting-edge
+                web development, we provide a complete suite of services
+                designed to enhance your brand's online presence, engage your
+                audience, and drive measurable results.
+              </p>
+
+              <div class="row g-2 border rounded-4 p-2">
+                <div class="col-6">
+                  <div
+                    class="rounded-4 p-3 bg-light shadow-lg d-flex flex-column align-items-center justify-content-center"
+                  >
+                    <h3 class="fw-semibold display-6 text-center">
+                      Need Custom?
+                    </h3>
+                    <p class="text-center">
+                      We completed 85% success project in business
+                    </p>
+                    <a href="/about.html" class="btn" id="button">Learn more</a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-2">
+                    <ul class="d-flex flex-column">
+                      <li class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-square-arrow-up-right icon"></i>
+                        <span class="fs-5">Marketing professional</span>
+                      </li>
+                      <li class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-square-arrow-up-right icon"></i>
+                        <span class="fs-5">Help businesses increase</span>
+                      </li>
+                      <li class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-square-arrow-up-right icon"></i>
+                        <span class="fs-5">Latest technologies</span>
+                      </li>
+                      <li class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-square-arrow-up-right icon"></i>
+                        <span class="fs-5">Measurable results</span>
+                      </li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-2 ms-3">
+                      <div class="icon-card">
+                        <i class="fa-solid fa-comment-dots icon"></i>
+                      </div>
+                      <div class="d-inline-flex flex-column">
+                        <h3 class="fw-semibold display-6 text-center">
+                          Call Now
+                        </h3>
+                        <p class="p-0">Connect with Us</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <form
+                action=""
+                class="w-100 rounded-4 bg-white shadow-lg overflow-hidden"
+              >
+                <div class="w-100 p-2" id="form-title">
+                  <h3 class="fw-bold text-white text-center">
+                    Accelerate Your Bussiness
+                  </h3>
+                </div>
+
+                <div class="d-flex flex-column gap-3 px-3 py-4">
+                  <input
+                    type="text"
+                    placeholder="Full Name *"
+                    required
+                    autocomplete="false"
+                    class="form-control fw-semibold"
+                  />
+                  <input
+                    type="tel"
+                    placeholder="Mobile No. *"
+                    required
+                    autocomplete="false"
+                    class="form-control fw-semibold"
+                  />
+                  <input
+                    type="email"
+                    placeholder="example@gmail.com"
+                    class="form-control fw-semibold"
+                  />
+
+                  <select
+                    class="form-select service-select fw-semibold"
+                    aria-label="Select Service"
+                  >
+                    <option selected disabled value="">Select Service</option>
+                    <option value="website-development">
+                      Website Designing & Development
+                    </option>
+                    <option value="seo-services">
+                      Search Engine Optimization (SEO)
+                    </option>
+                    <option value="ad-services">Google Ads & Meta Ads</option>
+                    <option value="Social Media Marketing & Optimization">
+                      Social Media Marketing & Optimization
+                    </option>
+                    <option value="Graphic Designing">Graphic Designing</option>
+                    <option value="Local SEO">
+                      Local SEO (Google My Business)
+                    </option>
+                    <option value="WhatsApp & Email Marketing">
+                      WhatsApp & Email Marketing
+                    </option>
+                  </select>
+
+                  <input
+                    type="url"
+                    placeholder="Website URL"
+                    class="form-control fw-semibold"
+                  />
+
+                  <!-- Additional fields for AD Services -->
+                  <select
+                    class="form-select ad-service fw-semibold"
+                    aria-label="Default select example"
+                    style="display: none"
+                  >
+                    <option value="" disabled selected>
+                      Monthly AD Budget (INR) *
+                    </option>
+                    <option value="1">10 Lacs or above</option>
+                    <option value="2">INR 5 Lacs - INR 10 Lacs</option>
+                    <option value="3">INR 2 Lacs - INR 5 Lacs</option>
+                    <option value="3">INR 1 Lacs - INR 2 Lacs</option>
+                  </select>
+
+                  <button type="submit" class="btn" id="button">
+                    Get Started Now
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recognized By -->
+      <section class="w-100 py-4" id="recognized-section">
+        <div class="container">
+          <div class="mb-2 text-center">
+            <h2 class="text-white">
+              Recognized for Excellence in Digital Marketing & Innovation
+            </h2>
+            <p class="w-100 w-lg-75 mx-auto text-light">
+              Proudly acknowledged by industry leaders for our expertise,
+              innovation, and outstanding results in digital marketing,
+              branding, and web development.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-3">
+              <div
+                class="p-2 rounded-4 shadow-lg bg-white d-flex align-items-center justify-content-center recognized-card"
+              >
+                <img src="./images/bhub-logo.webp" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="p-2 rounded-4 shadow-lg bg-white d-flex align-items-center justify-content-center recognized-card"
+              >
+                <img src="./images/cimp-logo.webp" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="p-2 rounded-4 shadow-lg bg-white d-flex align-items-center justify-content-center recognized-card"
+              >
+                <img src="./images/ic-iit-patna.webp" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="p-2 rounded-4 shadow-lg bg-white d-flex align-items-center justify-content-center recognized-card"
+              >
+                <img src="./images/startup-bihar.webp" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="p-2 rounded-4 shadow-lg bg-white d-flex align-items-center justify-content-center recognized-card"
+              >
+                <img src="./images/startup-india.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="w-100 my-4" id="service-section">
+        <div class="container">
+          <div
+            class="w-100 text-center d-flex flex-column align-items-center gap-1"
+          >
+            <h4 class="process-badge mb-2">Our Services</h4>
+            <h2>Top Digital Marketing Services</h2>
+            <p>Accelerate Your Business Growth</p>
+          </div>
+
+          <div class="row g-2">
+            <div class="col-md-4">
+              <div class="card" id="service-card">
+                <img
+                  src="./images/web-design.png"
+                  class="card-img-top"
+                  alt="web-design-development"
+                />
+                <div class="card-body" id="card-content">
+                  <h5 class="card-title">Website Designing & Development</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" id="service-card">
+              <div class="card">
+                <img
+                  src="./images/ads.png"
+                  class="card-img-top"
+                  alt="web-design-development"
+                />
+                <div class="card-body" id="card-content">
+                  <h5 class="card-title">Google Ads & Meta Ads</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" id="service-card">
+              <div class="card">
+                <img
+                  src="./images/seo.png"
+                  class="card-img-top"
+                  alt="web-design-development"
+                />
+                <div class="card-body" id="card-content">
+                  <h5 class="card-title">Search Engine Optimization (SEO)</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" id="service-card">
+              <div class="card">
+                <img
+                  src="./images/social-media.png"
+                  class="card-img-top"
+                  alt="web-design-development"
+                />
+                <div class="card-body" id="card-content">
+                  <h5 class="card-title">
+                    Social Media Marketing & Optimization
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" id="service-card">
+              <div class="card">
+                <img
+                  src="./images/graphic.png"
+                  class="card-img-top"
+                  alt="web-design-development"
+                />
+                <div class="card-body" id="card-content">
+                  <h5 class="card-title">Graphic Desigining</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" id="service-card">
+              <div class="card">
+                <img
+                  src="./images/local-seo.png"
+                  class="card-img-top"
+                  alt="web-design-development"
+                />
+                <div class="card-body" id="card-content">
+                  <h5 class="card-title">Local SEO (Google My Business)</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" id="service-card">
+              <div class="card">
+                <img
+                  src="./images/email.png"
+                  class="card-img-top"
+                  alt="web-design-development"
+                />
+                <div class="card-body" id="card-content">
+                  <h5 class="card-title">WhatsApp & Email Marketing</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trusted Section -->
+      <section class="w-100 my-4" id="trusted-section">
+        <div class="container">
+          <div class="mb-2 text-center">
+            <h2 class="">Trusted by Top Leading Brands</h2>
+            <p class="w-100 w-lg-75 mx-auto">
+              Partnering with industry leaders to deliver innovative digital
+              marketing and web solutions that drive success and growth.
+            </p>
+          </div>
+          <!-- carousel 1 -->
+          <div class="owl-carousel brands-carousel owl-theme">
+            <div class="item">
+              <img src="./images/brand1.png" alt="Brand 1" class="brand-logo" />
+            </div>
+            <div class="item">
+              <img src="./images/brand2.png" alt="Brand 2" class="brand-logo" />
+            </div>
+            <div class="item">
+              <img src="./images/brand3.png" alt="Brand 3" class="brand-logo" />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand4.webp"
+                alt="Brand 4"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand5.webp"
+                alt="Brand 5"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand6.webp"
+                alt="Brand 6"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img src="./images/brand7.png" alt="Brand 7" class="brand-logo" />
+            </div>
+            <div class="item">
+              <img src="./images/brand8.png" alt="Brand 8" class="brand-logo" />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand9.webp"
+                alt="Brand 9"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand10.webp"
+                alt="Brand 10"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand11.webp"
+                alt="Brand 11"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand12.webp"
+                alt="Brand 12"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand13.webp"
+                alt="Brand 13"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand14.png"
+                alt="Brand 14"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand15.png"
+                alt="Brand 15"
+                class="brand-logo"
+              />
+            </div>
+          </div>
+          <!-- carousel 2 -->
+          <div class="owl-carousel brands-carousel-2 owl-theme">
+            <div class="item">
+              <img
+                src="./images/brand17.png"
+                alt="Brand 17"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand18.png"
+                alt="Brand 18"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand19.png"
+                alt="Brand 19"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand20.webp"
+                alt="Brand 20"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand21.webp"
+                alt="Brand 21"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand22.png"
+                alt="Brand 22"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand23.png"
+                alt="Brand 23"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand24.png"
+                alt="Brand 24"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand25.webp"
+                alt="Brand 25"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand26.webp"
+                alt="Brand 26"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand27.png"
+                alt="Brand 27"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand28.png"
+                alt="Brand 28"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand29.webp"
+                alt="Brand 29"
+                class="brand-logo"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/brand30.webp"
+                alt="Brand 30"
+                class="brand-logo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="py-5 text-white mt-4" id="stats-section">
+        <div class="container position-relative">
+          <div class="row g-4 text-center">
+            <div class="col-md-3 mb-4 mb-md-0">
+              <div class="stat-card">
+                <h3
+                  class="display-4 fw-bold counter text-white"
+                  data-target="20"
+                >
+                  0
+                </h3>
+                <span class="display-4 ms-2 text-white">+</span>
+                <p class="h5 mt-3">Awards Won</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4 mb-md-0">
+              <div class="stat-card">
+                <h3
+                  class="display-4 fw-bold counter text-white"
+                  data-target="200"
+                >
+                  0
+                </h3>
+                <span class="display-4 ms-2 fw-bold text-white">+</span>
+                <p class="h5 mt-3">Completed Projects</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4 mb-md-0">
+              <div class="stat-card">
+                <h3
+                  class="display-4 fw-bold counter text-white"
+                  data-target="1100"
+                >
+                  0
+                </h3>
+                <span class="display-4 ms-2 fw-bold text-white">+</span>
+                <p class="h5 mt-3">Satisfied Customer</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-card">
+                <h3
+                  class="display-4 fw-bold counter text-white"
+                  data-target="50"
+                >
+                  0
+                </h3>
+                <span class="display-4 ms-2 fw-bold text-white">+</span>
+                <p class="h5 mt-3">Expert Employees</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Section -->
+      <section class="w-100 my-4" id="why-section">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="">Why Choose Us</h2>
+            <p class="w-100 w-lg-75 mx-auto">
+              Discover what sets us apart—expertise, innovation, and data-driven
+              strategies that drive real results for your brand’s digital
+              success.
+            </p>
+          </div>
+          <div class="row g-4 align-items-center">
+            <div class="col-md-7">
+              <div>
+                <h3 class="text-center mb-2">
+                  We Are a Trusted Web Development & Digital Marketing Company
+                </h3>
+                <div
+                  class="w-100 d-flex align-items-center justify-content-center flex-wrap gap-3"
+                >
+                  <div class="why-card">
+                    <h4>Expert-Led Training</h4>
+                    <p>
+                      Learn from industry professionals with hands-on
+                      experience.
+                    </p>
+                  </div>
+                  <div class="why-card">
+                    <h4>Customized Digital Solutions</h4>
+                    <p>
+                      Tailored strategies for SEO, PPC, and social media
+                      marketing.
+                    </p>
+                  </div>
+                  <div class="why-card">
+                    <h4>Proven Track Record</h4>
+                    <p>
+                      Over 5+ years of delivering high-quality digital marketing
+                      services.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div>
+                <img
+                  src="./images/why-banner.gif"
+                  alt="image"
+                  class="img-fluid object-fit-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Growing Everyday -->
+      <!-- <section class="w-100 py-4" id="growing-section">
+        <div class="container">
+          <div class="mb-3 text-center">
+            <h2 class="text-white">We are growing everyday</h2>
+          </div>
+
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6">
+              <div class="d-flex flex-column gap-2">
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white"
+                    >Technology/Construction</span
+                  >
+                  <div class="position-relative" id="progress">
+                    <div class="position-absolute" id="progress-overlap"></div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white">D2C Products</span>
+                  <div class="position-relative" id="progress">
+                    <div
+                      class="position-absolute"
+                      id="progress-overlap"
+                      style="width: 60%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white">E-Commerce</span>
+                  <div class="position-relative" id="progress">
+                    <div
+                      class="position-absolute"
+                      id="progress-overlap"
+                      style="width: 50%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white">Apps/SaaS</span>
+                  <div class="position-relative" id="progress">
+                    <div
+                      class="position-absolute"
+                      id="progress-overlap"
+                      style="width: 55%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white">FinTech </span>
+                  <div class="position-relative" id="progress">
+                    <div
+                      class="position-absolute"
+                      id="progress-overlap"
+                      style="width: 62%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="d-flex flex-column gap-2">
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white"
+                    >Fashion/Apparels/Jewellery</span
+                  >
+                  <div class="position-relative" id="progress">
+                    <div
+                      class="position-absolute"
+                      id="progress-overlap"
+                      style="width: 69%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white">Retail</span>
+                  <div class="position-relative" id="progress">
+                    <div
+                      class="position-absolute"
+                      id="progress-overlap"
+                      style="width: 72%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white">Healthcare</span>
+                  <div class="position-relative" id="progress">
+                    <div
+                      class="position-absolute"
+                      id="progress-overlap"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white">Education/Edtech</span>
+                  <div class="position-relative" id="progress">
+                    <div
+                      class="position-absolute"
+                      id="progress-overlap"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                  <span class="text-end fs-5 text-white">B2B</span>
+                  <div class="position-relative" id="progress">
+                    <div
+                      class="position-absolute"
+                      id="progress-overlap"
+                      style="width: 62%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Brochure Section -->
+      <section class="w-100 py-4 bg-primary" id="brochure-section">
+        <div class="container">
+          <div
+            class="d-flex flex-column gap-2 p-4 rounded-4 w-75 mx-auto bg-white align-items-center justify-content-center"
+          >
+            <h3>Start Your Knowledge Adventure</h3>
+            <p class="text-center">
+              To assist you in making an informed decision about your Digital
+              Marketing journey, you may access comprehensive course syllabi to
+              examine the subjects, goals, and learning outcomes for each
+              Digital Courses.
+            </p>
+            <a
+              href="/brochures/webzyro-brochure.pdf"
+              download="Webzyro-Digital-Marketing-Brochure"
+              class="btn btn-primary"
+              >Download Brochure</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="w-100 my-4">
+        <div class="container">
+          <div
+            class="w-100 text-center d-flex flex-column align-items-center gap-1"
+          >
+            <h4 class="process-badge mb-2">Testimonials</h4>
+            <h2>Hear Our Happy Faces</h2>
+            <p>Smiles and Success Stories, Celebrating Satisfied Clients</p>
+          </div>
+
+          <div class="row g-4 align-items-center">
+            <div class="col-md-5">
+              <img
+                src="/images/marketing.jpg"
+                alt="Testimonials-Img"
+                class="img-fluid object-fit-cover rounded-4"
+              />
+            </div>
+            <div class="col-md-7">
+              <!-- ... existing code ... -->
+              <div class="owl-carousel testimonials-carousel owl-theme">
+                <div class="item">
+                  <div class="testimonial-card p-4 bg-white rounded-4">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                      <div class="rating">
+                        <span class="fs-5">4.5</span>
+                        <div class="stars">
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star-half-alt text-warning"></i>
+                        </div>
+                      </div>
+                      <div class="client-info ms-3">
+                        <h5 class="mb-0">Shak Tech</h5>
+                        <small class="text-muted"
+                          >Digital Marketing Client</small
+                        >
+                      </div>
+                    </div>
+                    <p class="testimonial-text">
+                      The training sessions at GetMoreDigital were incredibly
+                      insightful! The hands-on approach and real-world examples
+                      helped me grasp complex concepts easily. I feel much more
+                      confident in my digital marketing skills now!
+                    </p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="testimonial-card p-4 bg-white rounded-4">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                      <div class="rating">
+                        <span class="fs-5">5.0</span>
+                        <div class="stars">
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                        </div>
+                      </div>
+                      <div class="client-info ms-3">
+                        <h5 class="mb-0">Tech Solutions</h5>
+                        <small class="text-muted">Web Development Client</small>
+                      </div>
+                    </div>
+                    <p class="testimonial-text">
+                      Outstanding service! The team at Webzyro delivered our
+                      website ahead of schedule and exceeded our expectations.
+                      Their attention to detail and professional approach made
+                      the entire process smooth.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="testimonial-card p-4 bg-white rounded-4">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                      <div class="rating">
+                        <span class="fs-5">4.8</span>
+                        <div class="stars">
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star-half-alt text-warning"></i>
+                        </div>
+                      </div>
+                      <div class="client-info ms-3">
+                        <h5 class="mb-0">Digital Growth</h5>
+                        <small class="text-muted">SEO Client</small>
+                      </div>
+                    </div>
+                    <p class="testimonial-text">
+                      The SEO results we've achieved with Webzyro have been
+                      remarkable. Our organic traffic has increased by 200% in
+                      just 6 months. Their team's expertise and dedication are
+                      truly commendable.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="w-100 py-4 border-top" id="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="d-flex flex-column gap-2">
+              <img
+                src="/images/webzyro-logo.png"
+                alt="logo"
+                class="img-fluid object-fit-cover w-75"
+              />
+              <p class="fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum,
+                dolor aut doloribus possimus id amet?
+              </p>
+              <div class="d-flex align-items-center gap-2">
+                <a href="#" class="social-icon text-decoration-none">
+                  <i class="fa-brands fa-facebook-f fs-4"></i>
+                </a>
+                <a href="#" class="social-icon text-decoration-none">
+                  <i class="fa-brands fa-instagram fs-4"></i>
+                </a>
+                <a href="#" class="social-icon text-decoration-none">
+                  <i class="fa-brands fa-youtube fs-4"></i>
+                </a>
+                <a href="#" class="social-icon text-decoration-none">
+                  <i class="fa-brands fa-linkedin-in fs-4"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-column gap-2">
+              <h3>Top Services</h3>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold">Website Designing & Development</span>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold"
+                  >Search Engine Optimization (SEO)</span
+                >
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold">Google Ads & Meta Ads</span>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold"
+                  >Social Media Marketing & Optimization</span
+                >
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold">Graphic Designing</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-column gap-2">
+              <h3>Contact Us</h3>
+              <a
+                href="mailto:marketing@Webzyro.com"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-envelope-circle-check fs-4"></i>
+                <span class="fw-semibold">marketing@Webzyro.com</span>
+              </a>
+              <a
+                href="tel:+91-7542025436"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-phone fs-4"></i>
+                <span class="fw-semibold">+91-7542025436</span>
+              </a>
+              <div
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-location-dot fs-4"></i>
+                <span class="fw-semibold"
+                  >2nd Floor, Leelavart Central, Patliputra Colony, Main Road,
+                  near Petrol pump, Alpana market, Patna, Bihar 800013</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Owl Carousel -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/index.js" defer></script>
+  </body>
+</html>

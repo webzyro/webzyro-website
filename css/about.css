@@ -1,0 +1,74 @@
+/* Breadcrumb */
+.breadcrumb-section {
+  background-color: #23a2db;
+  position: relative;
+}
+
+.breadcrumb-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+}
+
+.breadcrumb-item.active {
+  color: white;
+}
+
+.commitment-card {
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.commitment-card:hover {
+  transform: translateY(-5px);
+}
+
+.number {
+  background: #0d6efd;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.commitment-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.commitment-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+#button:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+}

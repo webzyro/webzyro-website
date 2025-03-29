@@ -1,0 +1,518 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #323b91;
+  --secondary-color: #23a2db;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  user-select: var(--primary-color, #323b91);
+}
+
+h2 {
+  color: var(--primary-color, #323b91) !important;
+  font-weight: bold !important;
+}
+h3 {
+  color: var(--primary-color, #323b91) !important;
+}
+
+p {
+  color: #222;
+  font-size: 1.08rem;
+}
+
+.tag {
+  font-size: 1.2rem !important;
+  color: var(--secondary-color, #23a2db);
+}
+
+.icon {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.icon-card {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header */
+#header {
+  background-color: var(--primary-color, #323b91);
+}
+
+#button {
+  background-color: var(--secondary-color, #23a2db);
+  color: white;
+  font-weight: bold;
+}
+
+#button:hover {
+  background-color: #1d7ca5;
+}
+
+/* Navbar */
+.nav-item a {
+  color: #323b91;
+  font-size: 1.1rem;
+  transition: all 0.4s ease-out;
+}
+
+.nav-item a:hover {
+  color: #23a2db;
+}
+
+#logo {
+  width: 150px;
+}
+
+/* Hero Section */
+#hero-section {
+  height: auto;
+  background: rgb(50, 59, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 59, 145, 1) 40%,
+    rgba(35, 162, 219, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+/* Custom navigation styles */
+
+.hero-carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-carousel .owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: #000 !important;
+  border-radius: 50% !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 20px !important;
+}
+
+.hero-carousel .owl-nav button:hover {
+  background: #333 !important;
+}
+
+.hero-carousel .owl-prev {
+  left: 10px;
+}
+
+.hero-carousel .owl-next {
+  right: 10px;
+}
+
+/* Custom dots styles */
+.hero-carousel .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-carousel .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.hero-carousel .owl-dot.active span {
+  background: #fff !important;
+}
+
+#how-section {
+  margin-bottom: 2rem !important;
+}
+
+.card-body {
+  margin-top: 5rem !important;
+}
+
+.card-body h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color, #323b91);
+}
+
+.card-body p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #333;
+}
+
+/* About Section */
+#form-title {
+  background-color: var(--primary-color, #323b91);
+}
+
+/* Recognized Section */
+#recognized-section {
+  background: rgb(50, 59, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 59, 145, 1) 40%,
+    rgba(35, 162, 219, 1) 100%
+  );
+}
+
+.recognized-card {
+  transition: transform 0.4s ease-out;
+}
+
+.recognized-card:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+}
+
+/* Carousel styling */
+.brands-carousel .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.brand-logo {
+  max-width: 150px;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+/* Growth progress bar */
+#growing-section {
+  background: rgb(50, 59, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 59, 145, 1) 40%,
+    rgba(35, 162, 219, 1) 100%
+  );
+}
+
+#progress {
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #999;
+  overflow: hidden;
+}
+
+#progress-overlap {
+  width: 70%;
+  height: 100%;
+  background-color: var(--secondary-color);
+}
+
+/* Step */
+.step-card {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Process Section Styles */
+.process-badge {
+  width: fit-content;
+  background-color: #23a2db;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.process-subtitle {
+  max-width: 600px;
+  margin: 0 auto !important;
+  font-size: 1.1rem;
+}
+
+.process-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  position: relative;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 128, 0, 0.1);
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+.process-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: #f97316;
+}
+
+.process-icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background: rgba(249, 115, 22, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  color: #f97316;
+  transition: all 0.3s ease;
+}
+
+.process-card:hover .process-icon {
+  background: #f97316;
+  color: white;
+}
+
+.process-number {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: var(--primary-color);
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.process-card h3 {
+  color: var(--primary-color) !important;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.process-card p {
+  color: #6c757d;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonial-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.stars {
+  margin-top: 5px;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+/* Owl Carousel Custom Navigation */
+.testimonials-carousel .owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  background: #fff !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-carousel .owl-nav button.owl-prev {
+  left: -20px;
+}
+
+.testimonials-carousel .owl-nav button.owl-next {
+  right: -20px;
+}
+
+.testimonials-carousel .owl-nav button span {
+  font-size: 24px;
+  line-height: 1;
+  color: #333;
+}
+
+.testimonials-carousel .owl-nav button:hover {
+  background: #f8f9fa !important;
+}
+
+/* Why Section */
+.why-card {
+  width: 300px;
+  min-height: 150px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 8px 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Stat Section */
+/* Stat Section */
+#stats-section {
+  /* position: relative; */
+  background: rgb(50, 59, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 59, 145, 1) 40%,
+    rgba(35, 162, 219, 1) 100%
+  );
+}
+
+#stats-section .container {
+  z-index: 2;
+}
+
+.stat-card {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.stat-card .counter {
+  display: inline-block;
+  color: white;
+}
+
+.stat-card span {
+  margin-left: -10px;
+}
+
+/* Card */
+#card-content {
+  margin-top: 0 !important;
+}
+
+.card-body p {
+  font-size: 1.1rem !important;
+}
+
+/* service */
+
+/* Footer */
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 50%;
+  transition: all 0.4s ease-out;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px);
+}
+#footer-service {
+  transition: all 0.4s ease-out;
+}
+
+#footer-service:hover {
+  color: var(--secondary-color) !important;
+  cursor: pointer;
+  transform: translateX(-2px);
+}
+
+@media (max-width: 768px) {
+  .process-card {
+    padding: 1.5rem;
+  }
+
+  .process-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .process-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .process-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  #hero-section {
+    height: auto;
+  }
+  #header span {
+    font-size: smaller;
+  }
+
+  .owl-nav,
+  .owl-prev {
+    display: none;
+  }
+
+  .brands-carousel .owl-nav button {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  #how-section {
+    display: none;
+  }
+}

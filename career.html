@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webzyro-about-page</title>
+
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/career.css" />
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="w-100 p-2" id="header">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <!-- left -->
+          <div class="d-flex align-items-center gap-3">
+            <a href="tel:+91-7542025436" class="text-decoration-none">
+              <li class="d-flex align-items-center gap-2 text-white">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91-7542025436</span>
+              </li>
+            </a>
+            <a href="mailto:info@webzyro.com" class="text-decoration-none">
+              <li class="d-flex align-items-center gap-2 text-white">
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>info@webzyro.com</span>
+              </li>
+            </a>
+          </div>
+          <!-- Right -->
+          <button
+            class="d-none btn btn-sm d-md-flex align-items-center gap-2"
+            id="button"
+          >
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Free Proposal</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light shadow-lg sticky-top"
+      id="navbar-container"
+    >
+      <div class="container d-flex align-items-center justify-content-between">
+        <a class="navbar-brand" href="/">
+          <img
+            src="./images/webzyro-logo.png"
+            alt="Logo"
+            class="img-fluid"
+            id="logo"
+          />
+        </a>
+        <!-- Replace navbar-toggler with offcanvas button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Add offcanvas -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <a
+              class="navbar-brand offcanvas-title"
+              id="offcanvasNavbarLabel"
+              href="/"
+            >
+              <img
+                src="./images/Advante-Logo.png"
+                alt="Logo"
+                class="img-fluid w-75"
+              />
+            </a>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/about-us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="hair-treatment.php"
+                      >Website Designing & Development</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="best-skin-care-treatment-in-patna.php"
+                      >Search Engine Optimization (SEO)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="laser-treatment.php"
+                      >Google Ads & Meta Ads</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="botox-treatment.php"
+                      >Social Media Marketing & Optimization</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="botox-treatment.php"
+                      >Graphic Designing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="botox-treatment.php"
+                      >Local SEO (Google My Business)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item fw-semibold"
+                      href="botox-treatment.php"
+                      >WhatsApp & Email Marketing</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/our-clients.html"
+                  >Clients</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/career.html">Careers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Breadcrumb Section -->
+    <section class="breadcrumb-section position-relative">
+      <div class="breadcrumb-overlay"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-4 text-white fw-bold mb-3">Job Opening</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="/" class="text-white text-decoration-none">Home</a>
+                </li>
+                <li
+                  class="breadcrumb-item active text-white"
+                  aria-current="page"
+                >
+                  Careers Page
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <!-- Why Join Us Section -->
+      <section class="w-100 py-5">
+        <div class="container">
+          <div
+            class="w-100 d-flex flex-column align-items-center justify-content-center mb-5"
+          >
+            <h4 class="process-badge">Why Join Us</h4>
+            <h2 class="mt-3">Be Part of Our Amazing Team</h2>
+            <p class="text-muted">
+              Join us in our mission to transform digital landscapes
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="perks-card">
+                <div class="perks-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <h4>Growth Opportunities</h4>
+                <p>
+                  Clear career progression path with continuous learning
+                  opportunities
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="perks-card">
+                <div class="perks-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <h4>Collaborative Culture</h4>
+                <p>
+                  Work with talented professionals in a supportive environment
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="perks-card">
+                <div class="perks-icon">
+                  <i class="fas fa-medal"></i>
+                </div>
+                <h4>Work-Life Balance</h4>
+                <p>Flexible working hours and hybrid work culture</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Current Openings Section -->
+      <section class="w-100 py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2>Current Openings</h2>
+            <p class="text-muted">Join our team and make an impact</p>
+          </div>
+
+          <div class="row g-4">
+            <!-- Web Developer Position -->
+            <div class="col-lg-6">
+              <div class="job-card">
+                <div class="d-flex justify-content-between align-items-start">
+                  <h3>Web Developer</h3>
+                  <span class="job-type-badge full-time">Full Time</span>
+                </div>
+                <div class="job-info">
+                  <span
+                    ><i class="fas fa-briefcase"></i> 3-5 years experience</span
+                  >
+                  <span
+                    ><i class="fas fa-map-marker-alt"></i> Patna, India</span
+                  >
+                </div>
+                <ul class="job-requirements">
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span
+                      >Proficient in HTML, CSS, JavaScript and modern
+                      frameworks</span
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span>Strong knowledge of PHP & Laravel</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span>Excellent communication skills</span>
+                  </li>
+                </ul>
+                <button
+                  class="apply-btn mt-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#applyModal"
+                >
+                  Apply Now
+                </button>
+              </div>
+            </div>
+
+            <!-- Tax Consultant Position -->
+            <div class="col-lg-6">
+              <div class="job-card">
+                <div class="d-flex justify-content-between align-items-start">
+                  <h3>SEO Expert</h3>
+                  <span class="job-type-badge remote">Remote</span>
+                </div>
+                <div class="job-info">
+                  <span
+                    ><i class="fas fa-briefcase"></i> 2-4 years experience</span
+                  >
+                  <span
+                    ><i class="fas fa-map-marker-alt"></i> Patna, India</span
+                  >
+                </div>
+                <ul class="job-requirements">
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span
+                      >Experience in on-page and technical SEO
+                      optimization</span
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span>Knowledge of SEO tools and analytics platforms</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span>Strong analytical skills</span>
+                  </li>
+                </ul>
+                <button
+                  class="apply-btn mt-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#applyModal"
+                >
+                  Apply Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Application Process Section -->
+      <section class="w-100 py-5">
+        <div class="container">
+          <div
+            class="text-center d-flex flex-column align-items-center justify-content-center mb-5"
+          >
+            <h4 class="process-badge">How to Apply</h4>
+            <h2 class="mt-3">Application Process</h2>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-3">
+              <div
+                class="process-card d-flex flex-column align-items-center text-center"
+              >
+                <div class="process-icon mb-3">
+                  <i class="fas fa-file-alt fs-1"></i>
+                </div>
+                <h5>1. Submit Application</h5>
+                <p>Apply with your updated resume</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="process-card d-flex flex-column align-items-center text-center"
+              >
+                <div class="process-icon mb-3">
+                  <i class="fas fa-phone fs-1"></i>
+                </div>
+                <h5>2. Initial Call</h5>
+                <p>Brief discussion about your experience</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="process-card d-flex flex-column align-items-center text-center"
+              >
+                <div class="process-icon mb-3">
+                  <i class="fas fa-users fs-1"></i>
+                </div>
+                <h5>3. Interview</h5>
+                <p>Technical and cultural fit assessment</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="process-card d-flex flex-column align-items-center text-center"
+              >
+                <div class="process-icon mb-3">
+                  <i class="fas fa-handshake fs-1"></i>
+                </div>
+                <h5>4. Offer</h5>
+                <p>Welcome to the team!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Job Application Modal -->
+    <div class="modal fade" id="applyModal" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Apply for Position</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="career-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Phone Number"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <select class="form-select" required>
+                    <option value="">Select Position</option>
+                    <option value="ca">Chartered Accountant</option>
+                    <option value="tax">Tax Consultant</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="form-control"
+                    rows="4"
+                    placeholder="Cover Letter"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="input-group">
+                    <input
+                      type="file"
+                      class="form-control"
+                      id="resume"
+                      accept=".pdf,.doc,.docx"
+                      required
+                    />
+                    <label class="input-group-text" for="resume">Resume</label>
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn carousel-btn mt-4 w-100">
+                Submit Application
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="w-100 py-4 border-top" id="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="d-flex flex-column gap-2">
+              <img
+                src="/images/webzyro-logo.png"
+                alt="logo"
+                class="img-fluid object-fit-cover w-75"
+              />
+              <p class="fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum,
+                dolor aut doloribus possimus id amet?
+              </p>
+              <div class="d-flex align-items-center gap-2">
+                <a href="#" class="social-icon text-decoration-none">
+                  <i class="fa-brands fa-facebook-f fs-4"></i>
+                </a>
+                <a href="#" class="social-icon text-decoration-none">
+                  <i class="fa-brands fa-instagram fs-4"></i>
+                </a>
+                <a href="#" class="social-icon text-decoration-none">
+                  <i class="fa-brands fa-youtube fs-4"></i>
+                </a>
+                <a href="#" class="social-icon text-decoration-none">
+                  <i class="fa-brands fa-linkedin-in fs-4"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-column gap-2">
+              <h3>Top Services</h3>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold">Website Designing & Development</span>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold"
+                  >Search Engine Optimization (SEO)</span
+                >
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold">Google Ads & Meta Ads</span>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold"
+                  >Social Media Marketing & Optimization</span
+                >
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="fw-semibold">Graphic Designing</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-column gap-2">
+              <h3>Contact Us</h3>
+              <a
+                href="mailto:marketing@Webzyro.com"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-envelope-circle-check fs-4"></i>
+                <span class="fw-semibold">marketing@Webzyro.com</span>
+              </a>
+              <a
+                href="tel:+91-7542025436"
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-phone fs-4"></i>
+                <span class="fw-semibold">+91-7542025436</span>
+              </a>
+              <div
+                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
+                id="footer-service"
+              >
+                <i class="fa-solid fa-location-dot fs-4"></i>
+                <span class="fw-semibold"
+                  >2nd Floor, Leelavart Central, Patliputra Colony, Main Road,
+                  near Petrol pump, Alpana market, Patna, Bihar 800013</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Owl Carousel -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/index.js" defer></script>
+  </body>
+</html>
