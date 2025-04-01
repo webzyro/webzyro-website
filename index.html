@@ -196,7 +196,9 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-semibold" href="/">Our Team</a>
+                <a class="nav-link fw-semibold" href="/our-team.html"
+                  >Our Team</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-semibold" href="/our-clients.html"
@@ -215,9 +217,9 @@
     <!-- Main -->
     <main class="overflow-hidden">
       <!-- Hero Section -->
-      <section class="w-100" id="hero-section">
+      <section class="w-100 pt-4" id="hero-section">
         <!-- <div class="container-fluid"> -->
-        <div class="owl-carousel hero-carousel owl-theme px-4">
+        <!-- <div class="owl-carousel hero-carousel owl-theme px-4">
           <div class="item">
             <div class="row g-2 align-items-center justify-content-center">
               <div class="col-md-6">
@@ -378,8 +380,55 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- </div> -->
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6">
+              <div class="d-flex flex-column gap-2">
+                <span class="process-badge">Premium Services</span>
+                <h2 class="text-white">
+                  You've got a business, we have got brilliant minds.
+                </h2>
+                <p class="text-white-50">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                  leo.
+                </p>
+                <a href="/about.html" class="btn" id="button">Discover more</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <img
+                  src="/images/banner.png"
+                  alt="banner-img"
+                  class="img-fluid object-fit-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-100">
+        <div class="container rounded-4 bg-white shadow-lg py-2">
+          <div
+            class="d-flex flex-column gap-2 align-items-center justify-content-center"
+          >
+            <h2 class="text-center">Join Our 10,000+ Happy Customers</h2>
+            <div
+              class="d-flex flex-wrap justify-content-center align-items-center gap-2"
+            >
+              <img src="./images/bhub-logo.webp" alt="" />
+              <img src="./images/cimp-logo.webp" alt="" />
+              <img src="./images/ic-iit-patna.webp" alt="" />
+              <img src="./images/startup-bihar.webp" alt="" />
+              <img src="./images/startup-india.webp" alt="" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- How it work section for large screen -->
@@ -568,7 +617,7 @@
               </p>
 
               <div class="row g-2 border rounded-4 p-2">
-                <div class="col-6">
+                <div class="col-md-6">
                   <div
                     class="rounded-4 p-3 bg-light shadow-lg d-flex flex-column align-items-center justify-content-center"
                   >
@@ -581,7 +630,7 @@
                     <a href="/about.html" class="btn" id="button">Learn more</a>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                   <div class="p-2">
                     <ul class="d-flex flex-column">
                       <li class="d-flex align-items-center gap-2">
@@ -703,8 +752,36 @@
         </div>
       </section>
 
+      <!-- Who We Are -->
+      <section class="w-100 my-4" id="who-section">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6">
+              <img
+                src="./images/our-agency.svg"
+                alt="our-agency"
+                class="img-fluid object-fit-cover"
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex flex-column gap-2">
+                <h4 class="process-badge mb-2">Our Agency</h4>
+                <h2>Real people delivering real results.</h2>
+                <p>
+                  Pharetra ornare consequat ad ligula facilisis habitasse
+                  pretium sollicitudin natoque. Ornare parturient hendrerit
+                  vulputate mi potenti per justo, Commodo eros amet ipsum
+                  himenaeos tincidunt.
+                </p>
+                <a href="/about.html" class="btn" id="button">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Recognized By -->
-      <section class="w-100 py-4" id="recognized-section">
+      <!-- <section class="w-100 py-4" id="recognized-section">
         <div class="container">
           <div class="mb-2 text-center">
             <h2 class="text-white">
@@ -754,7 +831,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Services Section -->
       <section class="w-100 my-4" id="service-section">
@@ -767,121 +844,170 @@
             <p>Accelerate Your Business Growth</p>
           </div>
 
-          <div class="row g-2">
+          <!-- first service -->
+          <div class="row g-2 align-items-center justify-content-center">
             <div class="col-md-4">
-              <div class="card" id="service-card">
+              <div class="service-img overflow-hidden">
                 <img
                   src="./images/web-design.png"
-                  class="card-img-top"
+                  class="img-fluid object-fit-cover"
                   alt="web-design-development"
                 />
-                <div class="card-body" id="card-content">
-                  <h5 class="card-title">Website Designing & Development</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
               </div>
             </div>
-            <div class="col-md-4" id="service-card">
-              <div class="card">
+            <div class="col-md-8">
+              <div class="d-flex flex-column gap-2">
+                <h3 class="">Website Designing & Development</h3>
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt quo quaerat sapiente ipsam mollitia ea ab, laborum
+                  nesciunt, expedita ratione aliquid, hic consectetur in eum?
+                  Omnis obcaecati officiis aspernatur autem!
+                </p>
+                <button type="submit" class="btn" id="button">Know more</button>
+              </div>
+            </div>
+          </div>
+          <hr class="border border-danger border-2 opacity-50" />
+          <!-- Second service -->
+          <div class="row g-2 align-items-center my-4">
+            <div class="col-md-8">
+              <div class="d-flex flex-column gap-2">
+                <h3 class="">Google Ads & Meta Ads</h3>
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt quo quaerat sapiente ipsam mollitia ea ab, laborum
+                  nesciunt, expedita ratione aliquid, hic consectetur in eum?
+                  Omnis obcaecati officiis aspernatur autem!
+                </p>
+                <button type="submit" class="btn" id="button">Know more</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-img overflow-hidden">
                 <img
                   src="./images/ads.png"
-                  class="card-img-top"
+                  class="img-fluid object-fit-cover"
                   alt="web-design-development"
                 />
-                <div class="card-body" id="card-content">
-                  <h5 class="card-title">Google Ads & Meta Ads</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
               </div>
             </div>
-            <div class="col-md-4" id="service-card">
-              <div class="card">
-                <img
-                  src="./images/seo.png"
-                  class="card-img-top"
-                  alt="web-design-development"
-                />
-                <div class="card-body" id="card-content">
-                  <h5 class="card-title">Search Engine Optimization (SEO)</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4" id="service-card">
-              <div class="card">
+          </div>
+          <hr class="border border-danger border-2 opacity-50" />
+          <!-- third Service -->
+          <div class="row g-2 align-items-center my-4">
+            <div class="col-md-4">
+              <div class="service-img overflow-hidden">
                 <img
                   src="./images/social-media.png"
-                  class="card-img-top"
+                  class="img-fluid object-fit-cover"
                   alt="web-design-development"
                 />
-                <div class="card-body" id="card-content">
-                  <h5 class="card-title">
-                    Social Media Marketing & Optimization
-                  </h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
               </div>
             </div>
-            <div class="col-md-4" id="service-card">
-              <div class="card">
+            <div class="col-md-8">
+              <div class="d-flex flex-column gap-2">
+                <h3 class="">Social Media Marketing & Optimization</h3>
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt quo quaerat sapiente ipsam mollitia ea ab, laborum
+                  nesciunt, expedita ratione aliquid, hic consectetur in eum?
+                  Omnis obcaecati officiis aspernatur autem!
+                </p>
+                <button type="submit" class="btn" id="button">Know more</button>
+              </div>
+            </div>
+          </div>
+          <hr class="border border-danger border-2 opacity-50" />
+          <!-- fourth service -->
+          <div class="row g-2 align-items-center my-4">
+            <div class="col-md-8">
+              <div class="d-flex flex-column gap-2">
+                <h3 class="">Graphic Desigining</h3>
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt quo quaerat sapiente ipsam mollitia ea ab, laborum
+                  nesciunt, expedita ratione aliquid, hic consectetur in eum?
+                  Omnis obcaecati officiis aspernatur autem!
+                </p>
+                <button type="submit" class="btn" id="button">Know more</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-img overflow-hidden">
                 <img
                   src="./images/graphic.png"
-                  class="card-img-top"
+                  class="img-fluid object-fit-cover"
                   alt="web-design-development"
                 />
-                <div class="card-body" id="card-content">
-                  <h5 class="card-title">Graphic Desigining</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
               </div>
             </div>
-            <div class="col-md-4" id="service-card">
-              <div class="card">
+          </div>
+          <hr class="border border-danger border-2 opacity-50" />
+          <!-- fifth service -->
+          <div class="row g-2 align-items-center my-4">
+            <div class="col-md-4">
+              <div class="service-img overflow-hidden">
                 <img
                   src="./images/local-seo.png"
-                  class="card-img-top"
+                  class="img-fluid object-fit-cover"
                   alt="web-design-development"
                 />
-                <div class="card-body" id="card-content">
-                  <h5 class="card-title">Local SEO (Google My Business)</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
               </div>
             </div>
-            <div class="col-md-4" id="service-card">
-              <div class="card">
+            <div class="col-md-8">
+              <div class="d-flex flex-column gap-2">
+                <h3 class="">Local SEO (Google My Business)</h3>
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt quo quaerat sapiente ipsam mollitia ea ab, laborum
+                  nesciunt, expedita ratione aliquid, hic consectetur in eum?
+                  Omnis obcaecati officiis aspernatur autem!
+                </p>
+                <button type="submit" class="btn" id="button">Know more</button>
+              </div>
+            </div>
+          </div>
+          <hr class="border border-danger border-2 opacity-50" />
+          <!-- sixth service -->
+          <div class="row g-2 align-items-center my-4">
+            <div class="col-md-8">
+              <div class="d-flex flex-column gap-2" id="service-content">
+                <h3 class="">WhatsApp & Email Marketing</h3>
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt quo quaerat sapiente ipsam mollitia ea ab, laborum
+                  nesciunt, expedita ratione aliquid, hic consectetur in eum?
+                  Omnis obcaecati officiis aspernatur autem!
+                </p>
+                <button type="submit" class="btn" id="button">Know more</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-img overflow-hidden">
                 <img
                   src="./images/email.png"
-                  class="card-img-top"
+                  class="img-fluid object-fit-cover"
                   alt="web-design-development"
                 />
-                <div class="card-body" id="card-content">
-                  <h5 class="card-title">WhatsApp & Email Marketing</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="w-100 py-4" id="cta-section">
+        <div class="container d-flex align-items-center justify-content-center">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="text-white fw-bold">Get free trial</h3>
+            <p class="text-white-50">
+              Convallis malesuada tristique mauris ipsum nascetur metus sit non
+              ac venenatis faucibus
+            </p>
+            <button type="submit" class="btn btn-light">Get Started Now</button>
           </div>
         </div>
       </section>
@@ -1201,129 +1327,8 @@
         </div>
       </section>
 
-      <!-- Growing Everyday -->
-      <!-- <section class="w-100 py-4" id="growing-section">
-        <div class="container">
-          <div class="mb-3 text-center">
-            <h2 class="text-white">We are growing everyday</h2>
-          </div>
-
-          <div class="row g-4 align-items-center">
-            <div class="col-md-6">
-              <div class="d-flex flex-column gap-2">
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white"
-                    >Technology/Construction</span
-                  >
-                  <div class="position-relative" id="progress">
-                    <div class="position-absolute" id="progress-overlap"></div>
-                  </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white">D2C Products</span>
-                  <div class="position-relative" id="progress">
-                    <div
-                      class="position-absolute"
-                      id="progress-overlap"
-                      style="width: 60%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white">E-Commerce</span>
-                  <div class="position-relative" id="progress">
-                    <div
-                      class="position-absolute"
-                      id="progress-overlap"
-                      style="width: 50%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white">Apps/SaaS</span>
-                  <div class="position-relative" id="progress">
-                    <div
-                      class="position-absolute"
-                      id="progress-overlap"
-                      style="width: 55%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white">FinTech </span>
-                  <div class="position-relative" id="progress">
-                    <div
-                      class="position-absolute"
-                      id="progress-overlap"
-                      style="width: 62%"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="d-flex flex-column gap-2">
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white"
-                    >Fashion/Apparels/Jewellery</span
-                  >
-                  <div class="position-relative" id="progress">
-                    <div
-                      class="position-absolute"
-                      id="progress-overlap"
-                      style="width: 69%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white">Retail</span>
-                  <div class="position-relative" id="progress">
-                    <div
-                      class="position-absolute"
-                      id="progress-overlap"
-                      style="width: 72%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white">Healthcare</span>
-                  <div class="position-relative" id="progress">
-                    <div
-                      class="position-absolute"
-                      id="progress-overlap"
-                      style="width: 75%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white">Education/Edtech</span>
-                  <div class="position-relative" id="progress">
-                    <div
-                      class="position-absolute"
-                      id="progress-overlap"
-                      style="width: 90%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                  <span class="text-end fs-5 text-white">B2B</span>
-                  <div class="position-relative" id="progress">
-                    <div
-                      class="position-absolute"
-                      id="progress-overlap"
-                      style="width: 62%"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
       <!-- Brochure Section -->
-      <section class="w-100 py-4 bg-primary" id="brochure-section">
+      <section class="w-100 py-4" id="brochure-section">
         <div class="container">
           <div
             class="d-flex flex-column gap-2 p-4 rounded-4 w-75 mx-auto bg-white align-items-center justify-content-center"
