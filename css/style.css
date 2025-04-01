@@ -92,11 +92,7 @@ a {
 #hero-section {
   height: auto;
   background: rgb(50, 59, 145);
-  background: linear-gradient(
-    90deg,
-    rgba(50, 59, 145, 1) 40%,
-    rgba(35, 162, 219, 1) 100%
-  );
+  background: linear-gradient(90deg, #323b91 40%, #23a2db 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -489,6 +485,22 @@ a {
 }
 
 /* Footer */
+
+#footer-section {
+  background: rgb(50, 59, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 59, 145, 1) 40%,
+    rgba(35, 162, 219, 1) 100%
+  );
+}
+
+#footer-overflow {
+  background-color: white;
+  top: -30px;
+  left: 0;
+  right: 0;
+}
 
 .social-icon {
   display: flex;
