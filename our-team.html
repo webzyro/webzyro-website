@@ -3,7 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
     <title>Webzyro-about-page</title>
+
+    <!-- Meta description for About Us -->
+    <meta
+      name="description"
+      content="Learn more about Webzyro, a leading digital marketing agency. We specialize in innovative PR, SEO, social media marketing, and brand growth strategies to maximize your online presence."
+    />
+
+    <!-- Meta keywords for SEO -->
+    <meta
+      name="keywords"
+      content="Webzyro, digital marketing agency, SEO services, social media marketing, branding, online marketing, PR strategies, growth hacking"
+    />
+
+    <!-- Canonical URL for About Us page -->
+    <link rel="canonical" href="https://www.webzyro.com/about" />
+
+    <!-- Open Graph Meta Tags for social sharing -->
+    <meta
+      property="og:title"
+      content="About Us - Webzyro | Digital Marketing & PR Experts"
+    />
+    <meta
+      property="og:description"
+      content="Discover how Webzyro helps businesses grow with cutting-edge digital marketing, SEO, and PR solutions. We drive brand success with innovative marketing strategies."
+    />
+    <meta
+      property="og:image"
+      content="https://www.webzyro.com/assets/images/branding.jpg"
+    />
+    <meta property="og:url" content="https://www.webzyro.com/about" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Meta Tags for social sharing -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="About Us - Webzyro | Digital Marketing & PR Experts"
+    />
+    <meta
+      name="twitter:description"
+      content="Webzyro is a full-service digital marketing agency helping brands grow with SEO, social media marketing, and innovative PR strategies."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.webzyro.com/assets/images/branding.jpg"
+    />
+    <meta name="twitter:site" content="@WebzyroMarketing" />
+    <meta name="twitter:creator" content="@WebzyroMarketing" />
+
+    <!-- Favicon and other icon links -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="icon" sizes="192x192" href="/favicon.ico" />
+    <link rel="icon" sizes="512x512" href="/favicon.ico" />
 
     <!-- Style Sheet Link -->
     <link rel="stylesheet" href="/css/style.css" />
@@ -242,7 +297,7 @@
     </section>
 
     <!-- Main Section -->
-    <main>
+    <main class="mb-5">
       <!-- Leadership Team Section -->
       <section class="py-5">
         <div class="container">
@@ -447,7 +502,7 @@
     </main>
 
     <!-- footer -->
-    <footer class="w-100 py-4 border-top position-relative" id="footer-section">
+    <footer class="footer-section pt-5 pb-3 position-relative">
       <div
         class="container position-absolute p-3 rounded-4 shadow-lg"
         id="footer-overflow"
@@ -458,122 +513,174 @@
         </div>
       </div>
       <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="d-flex flex-column gap-2">
+        <!-- Main Footer Content -->
+        <div class="row g-4 mb-5">
+          <!-- Company Info -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <div class="footer-content pe-lg-5">
               <img
                 src="/images/webzyro-logo.png"
-                alt="logo"
-                class="img-fluid object-fit-cover w-75"
+                alt="advante-logo"
+                class="img-fluid mb-4"
+                style="max-width: 200px"
               />
-              <p class="fs-6 text-white">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum,
-                dolor aut doloribus possimus id amet?
+              <p class="text-white mb-4">
+                Unleash Your Brand's Potential Online Join us and Shine !!
               </p>
-              <div class="d-flex align-items-center gap-2">
-                <a href="#" class="social-icon text-decoration-none">
-                  <i class="fa-brands fa-facebook-f fs-4"></i>
+              <div class="social-links d-flex gap-3">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100084210631589"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="#" class="social-icon text-decoration-none">
-                  <i class="fa-brands fa-instagram fs-4"></i>
+                <a
+                  href="https://x.com/Advante_clinic"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#" class="social-icon text-decoration-none">
-                  <i class="fa-brands fa-youtube fs-4"></i>
-                </a>
-                <a href="#" class="social-icon text-decoration-none">
-                  <i class="fa-brands fa-linkedin-in fs-4"></i>
+                <a
+                  href="https://www.instagram.com/advanteclinic/"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-instagram"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="d-flex flex-column gap-2">
-              <h3 class="text-light text-decoration-underline">Top Services</h3>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white"
-                  >Website Designing & Development</span
+
+          <!-- Quick Links -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h4 class="text-white mb-4 text-decoration-underline">
+              Our Services
+            </h4>
+            <ul class="footer-links list-unstyled">
+              <li>
+                <a href="./hair-treatment.php" class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Website
+                  Designing & Development</a
                 >
-              </a>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white"
-                  >Search Engine Optimization (SEO)</span
+              </li>
+              <li>
+                <a
+                  href="./best-skin-care-treatment-in-patna.php"
+                  class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Search
+                  Engine Optimization (SEO)</a
                 >
-              </a>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white"
-                  >Google Ads & Meta Ads</span
+              </li>
+              <li>
+                <a href="./laser-treatment.php" class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Google
+                  Ads & Meta Ads</a
                 >
-              </a>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white"
-                  >Social Media Marketing & Optimization</span
+              </li>
+              <li>
+                <a href="./botox-treatment.php" class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Social
+                  Media Marketing & Optimization</a
                 >
-              </a>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white">Graphic Designing</span>
-              </a>
-            </div>
+              </li>
+              <li>
+                <a href="./botox-treatment.php" class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Graphic
+                  Designing</a
+                >
+              </li>
+            </ul>
           </div>
-          <div class="col-md-4">
-            <div class="d-flex flex-column gap-2">
-              <h3 class="text-light text-decoration-underline">Contact Us</h3>
-              <a
-                href="mailto:marketing@Webzyro.com"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
+
+          <!-- Contact Info -->
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-4 text-decoration-underline">
+              Contact Us
+            </h4>
+            <ul class="footer-contact list-unstyled">
+              <li class="d-inline-flex align-items-center gap-2 mb-3">
                 <i
-                  class="fa-solid fa-envelope-circle-check fs-4 text-white"
+                  class="fa-solid fa-location-dot fs-4 text-white align-self-start"
                 ></i>
-                <span class="fw-semibold text-white"
-                  >marketing@Webzyro.com</span
-                >
+                <p class="text-white mb-0 p-0">
+                  2nd Floor, Leelavart Central, Patliputra Colony, Main Road,
+                  near Petrol pump, Alpana market, Patna, Bihar 800013
+                </p>
+              </li>
+              <li class="d-inline-flex align-items-center mb-3 gap-2">
+                <i class="fas fa-phone text-white fs-4"></i>
+                <p class="text-white mb-0">
+                  <a href="tel:+91-9650956637" class="text-white"
+                    >+91-9650956637</a
+                  >
+                </p>
+                <p class="text-white mb-0">
+                  <a href="tel:+91-8102959631" class="text-white"
+                    >+91-8102959631</a
+                  >
+                </p>
+              </li>
+              <li class="d-inline-flex align-items-center gap-2 mb-3">
+                <i class="fas fa-envelope text-white fs-4"></i>
+                <a href="#" class="text-white mb-0">info@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Social Stats -->
+        <div class="row g-4 py-4 border-top border-secondary">
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center social-stat">
+              <i class="fas fa-star text-warning me-2"></i>
+              <a href="#" target="_blank">
+                <h6 class="text-white mb-0">Google Reviews</h6>
+                <p class="text-white-50 mb-0">(250+ Reviews)</p>
               </a>
-              <a
-                href="tel:+91-7542025436"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-phone fs-4 text-white"></i>
-                <span class="fw-semibold text-white">+91-7542025436</span>
-              </a>
-              <div
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-location-dot fs-4 text-white"></i>
-                <span class="fw-semibold text-white"
-                  >2nd Floor, Leelavart Central, Patliputra Colony, Main Road,
-                  near Petrol pump, Alpana market, Patna, Bihar 800013</span
-                >
-              </div>
             </div>
           </div>
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center social-stat">
+              <i class="fab fa-youtube text-danger me-2"></i>
+              <a href="#" target="_blank">
+                <h6 class="text-white mb-0">YouTube</h6>
+                <p class="text-white-50 mb-0">@lorem</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center social-stat">
+              <i class="fab fa-instagram text-primary me-2"></i>
+              <a href="#" target="_blank">
+                <h6 class="text-white mb-0">Instagram</h6>
+                <p class="text-white-50 mb-0">@lorem</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="d-flex align-items-center social-stat">
+              <i class="fab fa-facebook text-primary me-2"></i>
+              <a href="#" target="_blank">
+                <h6 class="text-white mb-0">Facebook</h6>
+                <p class="text-white-50 mb-0">@lorem</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center pt-4 border-top border-secondary">
+          <p class="text-white-50 mb-0">
+            Copyright © 2025 Webzyro Technologies, Developed & Marketed by
+            <a
+              href="https://www.webzyro.com/"
+              target="_blank"
+              class="text-decoration-none text-white"
+              >Webzyro Technologies</a
+            >
+          </p>
         </div>
       </div>
     </footer>

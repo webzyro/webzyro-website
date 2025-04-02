@@ -3,7 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
     <title>Webzyro-home-page</title>
+
+    <!-- Meta description for About Us -->
+    <meta
+      name="description"
+      content="Learn more about Webzyro, a leading digital marketing agency. We specialize in innovative PR, SEO, social media marketing, and brand growth strategies to maximize your online presence."
+    />
+
+    <!-- Meta keywords for SEO -->
+    <meta
+      name="keywords"
+      content="Webzyro, digital marketing agency, SEO services, social media marketing, branding, online marketing, PR strategies, growth hacking"
+    />
+
+    <!-- Canonical URL for About Us page -->
+    <link rel="canonical" href="https://www.webzyro.com/about" />
+
+    <!-- Open Graph Meta Tags for social sharing -->
+    <meta
+      property="og:title"
+      content="About Us - Webzyro | Digital Marketing & PR Experts"
+    />
+    <meta
+      property="og:description"
+      content="Discover how Webzyro helps businesses grow with cutting-edge digital marketing, SEO, and PR solutions. We drive brand success with innovative marketing strategies."
+    />
+    <meta
+      property="og:image"
+      content="https://www.webzyro.com/assets/images/branding.jpg"
+    />
+    <meta property="og:url" content="https://www.webzyro.com/about" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Meta Tags for social sharing -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="About Us - Webzyro | Digital Marketing & PR Experts"
+    />
+    <meta
+      name="twitter:description"
+      content="Webzyro is a full-service digital marketing agency helping brands grow with SEO, social media marketing, and innovative PR strategies."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.webzyro.com/assets/images/branding.jpg"
+    />
+    <meta name="twitter:site" content="@WebzyroMarketing" />
+    <meta name="twitter:creator" content="@WebzyroMarketing" />
+
+    <!-- Favicon and other icon links -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="icon" sizes="192x192" href="/favicon.ico" />
+    <link rel="icon" sizes="512x512" href="/favicon.ico" />
 
     <!-- Style Sheet Link -->
     <link rel="stylesheet" href="/css/style.css" />
@@ -215,7 +270,7 @@
     </nav>
 
     <!-- Main -->
-    <main class="overflow-hidden">
+    <main class="overflow-hidden mb-5">
       <!-- Hero Section -->
       <section class="w-100 pt-4" id="hero-section">
         <!-- <div class="container-fluid"> -->
@@ -412,7 +467,7 @@
         </div>
       </section>
 
-      <section class="w-100">
+      <!-- <section class="w-100" id="feature-section">
         <div class="container rounded-4 bg-white shadow-lg py-2">
           <div
             class="d-flex flex-column gap-2 align-items-center justify-content-center"
@@ -429,10 +484,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- How it work section for large screen -->
-      <section class="w-100 mt-4 mb-5" id="how-section">
+      <section class="w-100 mb-5" id="how-section">
         <div class="container">
           <div class="mb-4 text-center">
             <span class="process-badge">How it work</span>
@@ -443,7 +498,7 @@
 
           <div class="row g-4">
             <div class="col-md-3">
-              <div class="card border-0">
+              <div class="card bg-transparent border-0">
                 <div class="position-relative">
                   <img src="./images/arrow.png" alt="arrow" class="img-fluid" />
                   <div class="step-card shadow-lg">
@@ -463,7 +518,7 @@
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card border-0">
+              <div class="card bg-transparent border-0">
                 <div class="position-relative">
                   <img src="./images/arrow.png" alt="arrow" class="img-fluid" />
                   <div class="step-card shadow-lg">
@@ -483,7 +538,7 @@
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card border-0">
+              <div class="card bg-transparent border-0">
                 <div class="position-relative">
                   <img src="./images/arrow.png" alt="arrow" class="img-fluid" />
                   <div class="step-card shadow-lg">
@@ -503,7 +558,7 @@
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card border-0">
+              <div class="card bg-transparent border-0">
                 <div class="position-relative">
                   <img src="./images/arrow.png" alt="arrow" class="img-fluid" />
                   <div class="step-card shadow-lg">
@@ -753,21 +808,22 @@
       </section>
 
       <!-- Who We Are -->
-      <section class="w-100 my-4" id="who-section">
+      <section class="w-100 py-4" id="who-section">
         <div class="container">
           <div class="row g-4 align-items-center">
             <div class="col-md-6">
               <img
                 src="./images/our-agency.svg"
+                loading="lazy"
                 alt="our-agency"
-                class="img-fluid object-fit-cover"
+                class="img-fluid object-fit-cover rounded-4 shadow-lg"
               />
             </div>
             <div class="col-md-6">
               <div class="d-flex flex-column gap-2">
                 <h4 class="process-badge mb-2">Our Agency</h4>
-                <h2>Real people delivering real results.</h2>
-                <p>
+                <h2 class="text-white">Real people delivering real results.</h2>
+                <p class="text-white-50">
                   Pharetra ornare consequat ad ligula facilisis habitasse
                   pretium sollicitudin natoque. Ornare parturient hendrerit
                   vulputate mi potenti per justo, Commodo eros amet ipsum
@@ -868,7 +924,7 @@
               </div>
             </div>
           </div>
-          <hr class="border border-danger border-2 opacity-50" />
+          <hr class="border border-primary border-2 opacity-50" />
           <!-- Second service -->
           <div class="row g-2 align-items-center my-4">
             <div class="col-md-8">
@@ -893,7 +949,7 @@
               </div>
             </div>
           </div>
-          <hr class="border border-danger border-2 opacity-50" />
+          <hr class="border border-primary border-2 opacity-50" />
           <!-- third Service -->
           <div class="row g-2 align-items-center my-4">
             <div class="col-md-4">
@@ -918,7 +974,7 @@
               </div>
             </div>
           </div>
-          <hr class="border border-danger border-2 opacity-50" />
+          <hr class="border border-primary border-2 opacity-50" />
           <!-- fourth service -->
           <div class="row g-2 align-items-center my-4">
             <div class="col-md-8">
@@ -943,7 +999,7 @@
               </div>
             </div>
           </div>
-          <hr class="border border-danger border-2 opacity-50" />
+          <hr class="border border-primary border-2 opacity-50" />
           <!-- fifth service -->
           <div class="row g-2 align-items-center my-4">
             <div class="col-md-4">
@@ -968,7 +1024,7 @@
               </div>
             </div>
           </div>
-          <hr class="border border-danger border-2 opacity-50" />
+          <hr class="border border-primary border-2 opacity-50" />
           <!-- sixth service -->
           <div class="row g-2 align-items-center my-4">
             <div class="col-md-8">
@@ -1002,12 +1058,19 @@
           <div
             class="d-flex flex-column align-items-center justify-content-center"
           >
-            <h3 class="text-white fw-bold">Get free trial</h3>
-            <p class="text-white-50">
-              Convallis malesuada tristique mauris ipsum nascetur metus sit non
-              ac venenatis faucibus
+            <h3 class="text-white fw-bold">Start Your Knowledge Adventure</h3>
+            <p class="text-white text-center">
+              To assist you in making an informed decision about your Digital
+              Marketing journey, you may access comprehensive course syllabi to
+              examine the subjects, goals, and learning outcomes for each
+              Digital Courses.
             </p>
-            <button type="submit" class="btn btn-light">Get Started Now</button>
+            <a
+              href="/brochures/webzyro-brochure.pdf"
+              download="Webzyro-Digital-Marketing-Brochure"
+              class="btn btn-primary"
+              >Download Brochure</a
+            >
           </div>
         </div>
       </section>
@@ -1327,25 +1390,161 @@
         </div>
       </section>
 
-      <!-- Brochure Section -->
-      <section class="w-100 py-4" id="brochure-section">
+      <!-- FAQ Section -->
+      <section class="faq-section py-5">
         <div class="container">
-          <div
-            class="d-flex flex-column gap-2 p-4 rounded-4 w-75 mx-auto bg-white align-items-center justify-content-center"
-          >
-            <h3>Start Your Knowledge Adventure</h3>
-            <p class="text-center">
-              To assist you in making an informed decision about your Digital
-              Marketing journey, you may access comprehensive course syllabi to
-              examine the subjects, goals, and learning outcomes for each
-              Digital Courses.
-            </p>
-            <a
-              href="/brochures/webzyro-brochure.pdf"
-              download="Webzyro-Digital-Marketing-Brochure"
-              class="btn btn-primary"
-              >Download Brochure</a
-            >
+          <div class="row mb-5">
+            <div class="col-12 text-center">
+              <span class="badge fs-5 bg-light text-dark px-3 py-2">FAQs</span>
+              <h2 class="display-5 fw-bold text-light">
+                Frequently Asked Questions
+              </h2>
+              <p class="lead text-light mb-0 mx-auto" style="max-width: 700px">
+                Find answers to common questions about our hair treatment
+                procedures and services
+              </p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="accordion custom-accordion" id="hairFAQ">
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold rounded-3"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq1"
+                    >
+                      What hair treatments do you offer at Advante Clinic?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#hairFAQ"
+                  >
+                    <div class="accordion-body text-secondary">
+                      We offer a comprehensive range of hair treatments
+                      including Hair Transplantation, PRP Therapy, Mesotherapy,
+                      Laser Hair Reduction, and specialized treatments for
+                      various scalp conditions. Our treatments are personalized
+                      to address individual hair concerns and goals.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold rounded-3"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2"
+                    >
+                      How long does it take to see results from hair treatments?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#hairFAQ"
+                  >
+                    <div class="accordion-body text-secondary">
+                      Results vary depending on the treatment type and
+                      individual response. Generally, visible improvements can
+                      be seen within 3-6 months of consistent treatment. Our
+                      doctors will provide a detailed timeline during your
+                      consultation based on your specific treatment plan.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold rounded-3"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq3"
+                    >
+                      Are your hair treatment procedures safe?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#hairFAQ"
+                  >
+                    <div class="accordion-body text-secondary">
+                      Yes, all our treatments are FDA-approved and performed by
+                      certified medical professionals. We use state-of-the-art
+                      equipment and follow strict safety protocols. Each patient
+                      undergoes a thorough consultation to ensure the treatment
+                      is suitable for them.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold rounded-3"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq4"
+                    >
+                      What is the cost of hair treatment at your clinic?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#hairFAQ"
+                  >
+                    <div class="accordion-body text-secondary">
+                      Treatment costs vary based on the type of procedure,
+                      number of sessions required, and individual needs. We
+                      offer free consultations where we provide detailed cost
+                      information and flexible payment options. Contact us to
+                      schedule a consultation.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold rounded-3"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq5"
+                    >
+                      Do you provide post-treatment care support?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#hairFAQ"
+                  >
+                    <div class="accordion-body text-secondary">
+                      Yes, we provide comprehensive post-treatment care support.
+                      This includes detailed aftercare instructions, follow-up
+                      appointments, and continuous monitoring of your progress.
+                      Our team is always available to address any concerns
+                      during your recovery period.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -1461,9 +1660,8 @@
       </section>
     </main>
 
-    <!-- footer -->
-    <!-- footer -->
-    <footer class="w-100 py-4 border-top position-relative" id="footer-section">
+    <!-- Footer Section -->
+    <footer class="footer-section pt-5 pb-3 position-relative">
       <div
         class="container position-absolute p-3 rounded-4 shadow-lg"
         id="footer-overflow"
@@ -1474,122 +1672,174 @@
         </div>
       </div>
       <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="d-flex flex-column gap-2">
+        <!-- Main Footer Content -->
+        <div class="row g-4 mb-5">
+          <!-- Company Info -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <div class="footer-content pe-lg-5">
               <img
                 src="/images/webzyro-logo.png"
-                alt="logo"
-                class="img-fluid object-fit-cover w-75"
+                alt="advante-logo"
+                class="img-fluid mb-4"
+                style="max-width: 200px"
               />
-              <p class="fs-6 text-white">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum,
-                dolor aut doloribus possimus id amet?
+              <p class="text-white mb-4">
+                Unleash Your Brand's Potential Online Join us and Shine !!
               </p>
-              <div class="d-flex align-items-center gap-2">
-                <a href="#" class="social-icon text-decoration-none">
-                  <i class="fa-brands fa-facebook-f fs-4"></i>
+              <div class="social-links d-flex gap-3">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100084210631589"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="#" class="social-icon text-decoration-none">
-                  <i class="fa-brands fa-instagram fs-4"></i>
+                <a
+                  href="https://x.com/Advante_clinic"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#" class="social-icon text-decoration-none">
-                  <i class="fa-brands fa-youtube fs-4"></i>
-                </a>
-                <a href="#" class="social-icon text-decoration-none">
-                  <i class="fa-brands fa-linkedin-in fs-4"></i>
+                <a
+                  href="https://www.instagram.com/advanteclinic/"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-instagram"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="d-flex flex-column gap-2">
-              <h3 class="text-light text-decoration-underline">Top Services</h3>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white"
-                  >Website Designing & Development</span
+
+          <!-- Quick Links -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h4 class="text-white mb-4 text-decoration-underline">
+              Our Services
+            </h4>
+            <ul class="footer-links list-unstyled">
+              <li>
+                <a href="./hair-treatment.php" class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Website
+                  Designing & Development</a
                 >
-              </a>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white"
-                  >Search Engine Optimization (SEO)</span
+              </li>
+              <li>
+                <a
+                  href="./best-skin-care-treatment-in-patna.php"
+                  class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Search
+                  Engine Optimization (SEO)</a
                 >
-              </a>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white"
-                  >Google Ads & Meta Ads</span
+              </li>
+              <li>
+                <a href="./laser-treatment.php" class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Google
+                  Ads & Meta Ads</a
                 >
-              </a>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white"
-                  >Social Media Marketing & Optimization</span
+              </li>
+              <li>
+                <a href="./botox-treatment.php" class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Social
+                  Media Marketing & Optimization</a
                 >
-              </a>
-              <a
-                href="#"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-angles-right text-white"></i>
-                <span class="fw-semibold text-white">Graphic Designing</span>
-              </a>
-            </div>
+              </li>
+              <li>
+                <a href="./botox-treatment.php" class="footer-link text-white"
+                  ><i class="fas fa-chevron-right me-2 text-white"></i>Graphic
+                  Designing</a
+                >
+              </li>
+            </ul>
           </div>
-          <div class="col-md-4">
-            <div class="d-flex flex-column gap-2">
-              <h3 class="text-light text-decoration-underline">Contact Us</h3>
-              <a
-                href="mailto:marketing@Webzyro.com"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
+
+          <!-- Contact Info -->
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-4 text-decoration-underline">
+              Contact Us
+            </h4>
+            <ul class="footer-contact list-unstyled">
+              <li class="d-inline-flex align-items-center gap-2 mb-3">
                 <i
-                  class="fa-solid fa-envelope-circle-check fs-4 text-white"
+                  class="fa-solid fa-location-dot fs-4 text-white align-self-start"
                 ></i>
-                <span class="fw-semibold text-white"
-                  >marketing@Webzyro.com</span
-                >
+                <p class="text-white mb-0 p-0">
+                  2nd Floor, Leelavart Central, Patliputra Colony, Main Road,
+                  near Petrol pump, Alpana market, Patna, Bihar 800013
+                </p>
+              </li>
+              <li class="d-inline-flex align-items-center mb-3 gap-2">
+                <i class="fas fa-phone text-white fs-4"></i>
+                <p class="text-white mb-0">
+                  <a href="tel:+91-9650956637" class="text-white"
+                    >+91-9650956637</a
+                  >
+                </p>
+                <p class="text-white mb-0">
+                  <a href="tel:+91-8102959631" class="text-white"
+                    >+91-8102959631</a
+                  >
+                </p>
+              </li>
+              <li class="d-inline-flex align-items-center gap-2 mb-3">
+                <i class="fas fa-envelope text-white fs-4"></i>
+                <a href="#" class="text-white mb-0">info@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Social Stats -->
+        <div class="row g-4 py-4 border-top border-secondary">
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center social-stat">
+              <i class="fas fa-star text-warning me-2"></i>
+              <a href="#" target="_blank">
+                <h6 class="text-white mb-0">Google Reviews</h6>
+                <p class="text-white-50 mb-0">(250+ Reviews)</p>
               </a>
-              <a
-                href="tel:+91-7542025436"
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-phone fs-4 text-white"></i>
-                <span class="fw-semibold text-white">+91-7542025436</span>
-              </a>
-              <div
-                class="d-flex align-items-center text-dark gap-2 text-decoration-none"
-                id="footer-service"
-              >
-                <i class="fa-solid fa-location-dot fs-4 text-white"></i>
-                <span class="fw-semibold text-white"
-                  >2nd Floor, Leelavart Central, Patliputra Colony, Main Road,
-                  near Petrol pump, Alpana market, Patna, Bihar 800013</span
-                >
-              </div>
             </div>
           </div>
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center social-stat">
+              <i class="fab fa-youtube text-danger me-2"></i>
+              <a href="#" target="_blank">
+                <h6 class="text-white mb-0">YouTube</h6>
+                <p class="text-white-50 mb-0">@lorem</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="d-flex align-items-center social-stat">
+              <i class="fab fa-instagram text-primary me-2"></i>
+              <a href="#" target="_blank">
+                <h6 class="text-white mb-0">Instagram</h6>
+                <p class="text-white-50 mb-0">@lorem</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="d-flex align-items-center social-stat">
+              <i class="fab fa-facebook text-primary me-2"></i>
+              <a href="#" target="_blank">
+                <h6 class="text-white mb-0">Facebook</h6>
+                <p class="text-white-50 mb-0">@lorem</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center pt-4 border-top border-secondary">
+          <p class="text-white-50 mb-0">
+            Copyright © 2025 Webzyro Technologies, Developed & Marketed by
+            <a
+              href="https://www.webzyro.com/"
+              target="_blank"
+              class="text-decoration-none text-white"
+              >Webzyro Technologies</a
+            >
+          </p>
         </div>
       </div>
     </footer>
